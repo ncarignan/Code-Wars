@@ -11,3 +11,6 @@ example:
 3=2+1
 9=10-1
 Write a function named isNice/IsNice that returns true if its array argument is a Nice array, else false. You should also return false if input array has no elements.
+
+
+##Had to reference solution. forgot that when arr is empty arr.length = count
