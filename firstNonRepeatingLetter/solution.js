@@ -1,20 +1,21 @@
 function firstNonRepeatingLetter(s) {
   let map = {};
   for(let i = 0; i < s.length; i++){
-    if(map[s[i]]){
-      map[s[i]]++;
+    if(map[s[i].toLowerCase()]){
+      map[s[i].toLowerCase()]['value']++;
     }else{
-      map[s[i]] = 1;
+      map[s[i].toLowerCase()] = {};
+      map[s[i].toLowerCase()]['value'] = 1;
+      map[s[i].toLowerCase()]['letter'] = s[i];
     }
   }
   let result ='';
   for(let key in map){
-    if(map[key] === 1)
-      return key;
+    if(map[key]['value'] === 1)
+      return map[key]['letter'];
   }
-
   return result;
 }
 
 
-console.log(firstNonRepeatingLetter('abcabd'));
+console.log(firstNonRepeatingLetter('sTreSS'), 'T');
