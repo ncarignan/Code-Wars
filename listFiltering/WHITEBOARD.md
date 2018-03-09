@@ -1,1 +1,0 @@
-filter for typeof number

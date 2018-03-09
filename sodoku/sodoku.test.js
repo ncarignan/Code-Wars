@@ -23,6 +23,6 @@ describe('sodoku should solve a sodoku', () => {
     [3,4,5,2,8,6,1,7,9]];
 
   test('sodoku solves an easy puzzle', () => {
-    expect(sodoku(easyPuzzle)).toEqual(easyPuzzleSolution);
+    expect(sodoku(easyPuzzle)).toEqual(easyPuzzleSolution );
   });
 });
