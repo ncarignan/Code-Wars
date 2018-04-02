@@ -1,3 +1,5 @@
+https://www.codewars.com/kata/5254620499cfe504bf0001c9/train/javascript
+
 Robby, the robot, wants to find his way back home. Unfortunately his power is pretty low, so he needs to find the shortest way from his Start point (S) to the Target cell (T).
 
 When Robby starts, he always looks into north direction. He has a limited command set and each command costs him 1 unit of power. The commands are:
